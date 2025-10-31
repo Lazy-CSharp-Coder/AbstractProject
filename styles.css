@@ -19,8 +19,8 @@ header {
   height: 88px;
 }
 
-.logoheader {
-  padding: 28px;
+.abstractLogo {
+  z-index: 10;
 }
 
 .menu {
