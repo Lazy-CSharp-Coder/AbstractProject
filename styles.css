@@ -141,8 +141,12 @@ section {
 {
   display: grid;
   grid-template-columns: 32rem 32rem;
+  /* grid-template-rows: auto auto; */
+  justify-items: center;
   column-gap: 24px;
-
+  
+  height: fit-content;
+  
 }
 
 .choicesDiv {
@@ -150,6 +154,7 @@ section {
   gap: 30px;
   align-items: first baseline;
   height: fit-content;
+  margin: 30px;
 }
 
 
