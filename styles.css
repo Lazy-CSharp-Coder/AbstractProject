@@ -195,13 +195,16 @@ section {
 
 footer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: repeat(6, auto);
-  row-gap: 0;
+  grid-template-columns: repeat(2, auto);
+  grid-auto-rows: auto;
+  gap: 0;
+  
   background-color: black;
  align-items: center;
+ height: fit-content;
 
 }
+
 
 .footerHeadingText {
   font-size: 24px;
@@ -215,7 +218,8 @@ footer {
   font-size: 16px;
   text-decoration: none;
   height: fit-content;
-
+  margin: 0;
+  padding: 0;
 }
 
 .footerText {
@@ -234,6 +238,7 @@ footer {
 .footerCopyrightText {
   font-size: 20px;
   font-weight: bold;
+  color:white;
 }
 
 .logoFooter {
