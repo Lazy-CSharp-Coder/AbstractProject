@@ -205,6 +205,9 @@ footer {
 
 }
 
+.column1, .column2 {
+  flex-direction: column;
+}
 
 .footerHeadingText {
   font-size: 24px;
