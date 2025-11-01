@@ -148,6 +148,7 @@ section {
   /* width: 45rem; */
   gap: 30px;
   align-items: first baseline;
+  height: fit-content;
 }
 
 
