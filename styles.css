@@ -97,7 +97,11 @@ header {
 /* MAIN */
 
 main {
+  display: flex;
   flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -116,6 +120,7 @@ h1 {
   justify-content: center;
   background-color: #dadbf1;
   height: 397px;
+  width: 100%;
 }
 
 
@@ -131,8 +136,16 @@ section {
   height: 100vh;
 }
 
+.choicesSection
+{
+  display: grid;
+  grid-template-columns: 32rem 32rem;
+  column-gap: 24px;
+
+}
+
 .choicesDiv {
-  width: 45rem;
+  /* width: 45rem; */
   gap: 30px;
   align-items: first baseline;
 }
