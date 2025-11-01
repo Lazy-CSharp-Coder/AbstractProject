@@ -138,6 +138,11 @@ section {
   height: 100vh;
 }
 
+
+.iconsMain {
+  width: 1fr;
+}
+
 /* FOOTER */
 
 footer {
