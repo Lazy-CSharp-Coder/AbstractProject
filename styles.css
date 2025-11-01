@@ -108,7 +108,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20rem;
+
 
 }
 
@@ -128,7 +128,7 @@ h1 {
   justify-content: center;
   background-color: #dadbf1;
   height: 397px;
-  width: 100%;
+
 }
 
 
@@ -147,11 +147,11 @@ section {
 .choicesSection
 {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   /* grid-template-rows: auto auto; */
-  justify-items: center;
+  justify-items: flex-start;
   column-gap: 24px;
-  
+  width: 75%;
   height: fit-content;
   
   
