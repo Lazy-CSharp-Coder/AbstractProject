@@ -194,14 +194,19 @@ section {
 /* FOOTER */
 
 footer {
+ 
+
+}
+
+.gridContainer {
+
   display: grid;
   grid-template-columns: repeat(5, auto);
-  /* grid-auto-rows: auto; */
+
   justify-items: left;
   background-color: black;
   padding-left: 100px;
- height: fit-content;
-
+  height: fit-content;
 }
 
 .column1, .column2, .column3, .column4, .column5 {
