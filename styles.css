@@ -139,7 +139,8 @@ section {
 
 
 .iconAndTextWrapper {
-  align-items: center;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 .iconsMain {
@@ -149,6 +150,8 @@ section {
 .headingIconChoices {
   font-size: 24px;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
 .choicesText {
