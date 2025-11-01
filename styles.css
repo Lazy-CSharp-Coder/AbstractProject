@@ -118,7 +118,8 @@ h1 {
 
 .hero {
   justify-content: center;
-  background-color: lightblue
+  background-color: #dadbf1;
+  height: 397px;
 }
 
 
