@@ -195,8 +195,8 @@ section {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(4, auto);
+  /* grid-auto-rows: auto; */
   gap: 0;
   
   background-color: black;
