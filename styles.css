@@ -193,8 +193,10 @@ section {
 /* FOOTER */
 
 footer {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(4, auto);
+  height: 200px;
 }
 
 .footerAnchors {
