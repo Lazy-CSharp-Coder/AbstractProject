@@ -212,6 +212,10 @@ footer {
   
 }
 
+.copyrightDiv {
+  justify-content: flex-end;
+}
+
 .footerHeadingText {
   font-size: 24px;
   color: white;
