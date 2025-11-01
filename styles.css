@@ -93,6 +93,11 @@ header {
   
 }
 
+.signInButton:hover {
+  background-color: white;
+  color:black;
+}
+
 
 
 /* MAIN */
@@ -123,6 +128,7 @@ h1 {
   background-color: #dadbf1;
   height: 397px;
   width: 100%;
+  margin: 0 100rem;
 }
 
 
@@ -141,9 +147,9 @@ section {
 .choicesSection
 {
   display: grid;
-  grid-template-columns: 32rem 32rem;
+  grid-template-columns: auto auto;
   /* grid-template-rows: auto auto; */
-  justify-items: center;
+  justify-items: flex-start;
   column-gap: 24px;
   
   height: fit-content;
