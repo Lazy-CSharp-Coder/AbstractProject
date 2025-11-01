@@ -37,6 +37,9 @@ header {
   border-radius: 8px;
 }
 
+.buttonDiv {
+  gap: 16px;
+}
 
 .searchButton {
   width:  265px;
@@ -60,7 +63,7 @@ header {
   width : 140px;
   height: 50px;
   font-size: 24px;
-
+  color: white;
   background-color: #4c5fd5;
   
 }
