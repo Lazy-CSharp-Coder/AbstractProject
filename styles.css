@@ -137,13 +137,30 @@ section {
   height: 100vh;
 }
 
-.iconsAndTextWrapper {
+.iconAndTextWrapper {
   align-items: center;
 }
 
 .iconsMain {
-  width: 1rem;
+  width: 5rem;
 }
+
+.headingIconChoices {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.choicesText {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.anchorLearnMore {
+  font-family: var(--primaryFontFamily);
+  color: #4C5Fd5;
+  font-size: 20px;
+}
+
 
 /* FOOTER */
 
