@@ -118,12 +118,15 @@ h1 {
 
 .hero {
   justify-content: center;
+  background-color: #dadbf1;
 }
 
 
 .inputSearch {
   width: 720px;
   height: 66px; 
+  border-radius: 5px;
+  padding: 16px;
 }
 
 
