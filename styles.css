@@ -201,7 +201,7 @@ footer {
 
   display: grid;
   grid-template-areas: "column1 column2 coulumn3 column4 column5"
-                       "copyrightDiv copyrightDiv copyrightDiv copyrightDiv copyrighDiv";
+                       "copyrightDiv copyrightDiv copyrightDiv copyrightDiv sidebar";
 
   justify-items: left;
   background-color: black;
@@ -213,6 +213,7 @@ footer {
   flex-direction: column;
 }
 .column5{
+
   justify-content: flex-end;
   
 }
@@ -258,6 +259,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   color:white;
+  grid-area: sidebar;
 }
 
 .logoFooter {
