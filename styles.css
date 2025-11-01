@@ -197,6 +197,7 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-template-rows: repeat(6, auto);
+  row-gap: 0;
   background-color: black;
 
 }
