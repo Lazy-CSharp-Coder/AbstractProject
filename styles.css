@@ -200,7 +200,8 @@ footer {
 .gridContainer {
 
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-areas: "first second third fourth fifth"
+                       "footer footer footer footer copyright";
  
   justify-items: left;
   background-color: black;
@@ -212,15 +213,34 @@ footer {
   flex-direction: column;
 
 }
+
+.column1 {
+  grid-area: first;
+}
+
+.column2 {
+  grid-area: second;
+}
+
+.column3 {
+  grid-area: third;
+}
+
+.column4 {
+  grid-area: fourth;
+
+}
+
 .column5{
 
   justify-content: flex-end;
-
+  grid-area: fifth;
   
 }
 
 .copyrightDiv {
   justify-items: flex-end;
+  grid-area: copyright;
 }
 
 .footerHeadingText {
