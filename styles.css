@@ -112,12 +112,15 @@ li {
 h1 {
   font-family: var(--primaryFontFamily);
  font-size: 80px;
+ font-weight: normal;
+ text-align: center;
  color:black;
 
 }
 
 .hero {
   justify-content: center;
+  
   background-color: #dadbf1;
   height: 397px;
 }
