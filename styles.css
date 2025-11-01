@@ -128,6 +128,7 @@ h1 {
   justify-content: center;
   background-color: #dadbf1;
   height: 397px;
+  width: 100%;
 
 }
 
@@ -151,8 +152,9 @@ section {
   /* grid-template-rows: auto auto; */
   justify-items: flex-start;
   column-gap: 24px;
-  width: 75%;
+  width: 65%;
   height: fit-content;
+  margin: 8em 0;
   
   
 }
