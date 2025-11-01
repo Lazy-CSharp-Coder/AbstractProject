@@ -216,8 +216,14 @@ footer {
 
 .footerText {
   color:white;
+  margin:0;
+  padding: 0;
 }
 
 .footerAnchors:hover {
   text-decoration: underline;
+}
+
+.logoFooter {
+  width: 35px;
 }
