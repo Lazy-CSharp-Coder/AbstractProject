@@ -192,13 +192,17 @@ section {
 /* FOOTER */
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Source Sans 3';
-  color: white;
-  text-align: center;
-  background-color: gray;
-  height: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
+.footerAnchors {
+  color:white;
+  font-size: 16px;
+  text-decoration: nono;
+
+}
+
+.footerAnchors:hover {
+  text-decoration: underline;
+}
