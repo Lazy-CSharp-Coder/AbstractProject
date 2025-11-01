@@ -194,14 +194,14 @@ section {
 /* FOOTER */
 
 footer {
- 
-
+ background-color: black;
 }
 
 .gridContainer {
 
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-areas: "column1 column2 coulumn3 column4 column5"
+                       "copyrightDiv copyrightDiv copyrightDiv copyrightDiv copyrighDiv";
 
   justify-items: left;
   background-color: black;
