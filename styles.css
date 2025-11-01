@@ -194,7 +194,7 @@ section {
 /* FOOTER */
 
 footer {
- background-color: black;
+  background-color: black;
 }
 
 .gridContainer {
@@ -204,6 +204,7 @@ footer {
                        "footer footer footer footer copyright";
  
   justify-items: left;
+  column-gap: 0px;
   background-color: black;
   padding-left: 100px;
   height: fit-content;
