@@ -94,25 +94,12 @@ header {
 
 
 
-.menu {
-  padding-right: 28px;
+/* MAIN */
+
+main {
   flex-grow: 1;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  list-style-type: none;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-/* MAIN */
 
 h1 {
   font-family: var(--primaryFontFamily);
@@ -122,6 +109,8 @@ h1 {
  color:black;
 
 }
+
+
 
 .hero {
   justify-content: center;
