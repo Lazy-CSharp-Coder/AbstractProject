@@ -201,7 +201,7 @@ footer {
 
   display: grid;
   grid-template-areas: "column1 column2 coulumn3 column4 column5"
-                       "copyrightDiv copyrightDiv copyrightDiv copyrightDiv sidebar";
+                       ". . . . copyrightDiv";
 
   justify-items: left;
   background-color: black;
