@@ -199,6 +199,7 @@ footer {
   grid-template-rows: repeat(6, auto);
   row-gap: 0;
   background-color: black;
+ align-items: center;
 
 }
 
@@ -206,12 +207,14 @@ footer {
   font-size: 24px;
   color: white;
   font-weight: bold;
+  height: fit-content;
 }
 
 .footerAnchors {
   color:white;
   font-size: 16px;
   text-decoration: none;
+  height: fit-content;
 
 }
 
@@ -219,10 +222,18 @@ footer {
   color:white;
   margin:0;
   padding: 0;
+  height: fit-content;
+  font-size: 16px;
 }
 
 .footerAnchors:hover {
   text-decoration: underline;
+
+}
+
+.footerCopyrightText {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .logoFooter {
