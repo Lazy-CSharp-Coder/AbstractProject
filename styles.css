@@ -195,8 +195,8 @@ section {
 
 footer {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: repeat(6, auto);
   background-color: black;
 
 }
@@ -212,6 +212,10 @@ footer {
   font-size: 16px;
   text-decoration: none;
 
+}
+
+.footerText {
+  color:white;
 }
 
 .footerAnchors:hover {
