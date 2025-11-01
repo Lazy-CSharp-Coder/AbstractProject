@@ -218,7 +218,7 @@ footer {
 }
 
 .copyrightDiv {
-  justify-content: flex-end;
+  justify-items: flex-end;
 }
 
 .footerHeadingText {
