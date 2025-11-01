@@ -4,9 +4,15 @@
 
 /* BODY */
 
+:root {
+  --primaryFontFamily :  "Libre Franklin";
+}
+
+
+
 body {
   margin: 0;
-  font-family: "Libre Franklin";
+  font-family: var(--primaryFontFamily);
 }
 
 /* HEADER */
@@ -39,7 +45,7 @@ header {
 }
 
 .button {
-  font-family: "Libre Franklin";
+  font-family: var(--primaryFontFamily);
   border-radius: 8px;
 }
 
@@ -102,6 +108,24 @@ li {
 }
 
 /* MAIN */
+
+h1 {
+  font-family: var(--primaryFontFamily);
+ font-size: 80px;
+ color:black;
+
+}
+
+.hero {
+  justify-content: center;
+}
+
+
+.inputSearch {
+  width: 720px;
+  height: 66px; 
+}
+
 
 section {
   height: 100vh;

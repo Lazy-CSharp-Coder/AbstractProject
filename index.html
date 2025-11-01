@@ -18,7 +18,7 @@
         <p class="headerText">| Help Center</p>
       </div>
       <div class="flex buttonDiv">
-        <button id="searchButton" class="searchButton button">Search</button>
+        <!-- <button id="searchButton" class="searchButton button">Search</button> -->
         <button id="submitButton" class="submitButton button">Submit a request</button>
         <button id="signInButton" class="signInButton button">Sign in</button>
       </div>
@@ -26,12 +26,23 @@
 
     <main>
       <!-- Hovedinnhold: introduksjon, produkt, fremvisning -->
-      <section id="hjem" class="hero">
+      <section id="hero" class="hero flex">
         <!-- Hero / Main / Home -->
-        <h1>Hero - hovedoverskrift</h1>
+        <form>
+          <h1>How can we help?</h1>
+          <label for="inputSearch" class="inputSearch">
+            <input type="search" name="inputSearch" id="inputSearch" placeholder="Search"></label>
+          </label>
+        </form>
       </section>
-      <section id="om">
-        <h2>underoveskrift seksjon 2</h2>
+      <section id="choices" class="choices">
+        <div class="iconAndTextWrapper">
+          <img src="Icons/icon-versions.png" alt="icon icon-versions">
+          <p class="headingIconChoices">Using Abstract</p>
+          <a href="">Learn More -></a>
+
+
+        </div>
       </section>
       <section id="produkt">
         <h2>underoverskrif seksjon 3</h2>
