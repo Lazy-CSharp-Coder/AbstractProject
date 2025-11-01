@@ -49,6 +49,7 @@ header {
 
 .buttonDiv {
   gap: 16px;
+  align-items: center;
 }
 
 .searchButton {
